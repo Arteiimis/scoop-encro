@@ -1,0 +1,24 @@
+{
+  "version": "2.0.1",
+  "description": "Batch media processing CLI built on ffmpeg",
+  "homepage": "https://github.com/Arteiimis/encro",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/Arteiimis/encro/releases/download/v2.0.1/encro-2.0.1-x64-windows.zip",
+      "hash": "521ce4fa98f6ff5bdb6859c441675ad11a38f24da03378c4d8a1dcf734fdacc7"
+    }
+  },
+  "bin": "bin\\encro.exe",
+  "notes": "encro drives ffmpeg and ffprobe; install both and make sure they are on PATH (or pass --ffmpeg-path).",
+  "checkver": {
+    "github": "https://github.com/Arteiimis/encro"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/Arteiimis/encro/releases/download/v$version/encro-$version-x64-windows.zip"
+      }
+    }
+  }
+}
