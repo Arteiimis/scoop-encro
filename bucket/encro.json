@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/Arteiimis/encro/releases/download/v2.0.2/encro-2.0.2-x64-windows.zip",
-      "hash": "f2642294a57dc877476e2ddeaa6d732859b932b4bb5325977916d43690f97b17"
+      "hash": "6378148c5425e0e807c6a5050737da2cde9a3def2e5ff29f7ea8993f5fc882f4"
     }
   },
   "bin": "bin\\encro.exe",
