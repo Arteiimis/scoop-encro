@@ -1,12 +1,12 @@
 {
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Batch media processing CLI built on ffmpeg",
   "homepage": "https://github.com/Arteiimis/encro",
   "license": "MIT",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/Arteiimis/encro/releases/download/v2.0.2/encro-2.0.2-x64-windows.zip",
-      "hash": "f2642294a57dc877476e2ddeaa6d732859b932b4bb5325977916d43690f97b17"
+      "url": "https://github.com/Arteiimis/encro/releases/download/v2.0.3/encro-2.0.3-x64-windows.zip",
+      "hash": "b0e55046d1fcb54eeb1a98c5de0d6326757341234a1b82db1c2a50b4b934002b"
     }
   },
   "bin": "bin\\encro.exe",
